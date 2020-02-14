@@ -22,7 +22,8 @@ for snippet in glob.glob(os.path.join(remmina_cfg_path, "*.remmina")):
     config.read(snippet)
     try:
         result[config["remmina"]["group"]][config["remmina"]["name"]] = \
-            {"path": snippet, "protocol": config["remmina"]["protocol"].lower()}
+            {"path": snippet,
+             "protocol": config["remmina"]["protocol"].lower()}
     except KeyError:
         errors.append("Error while reading %s" % snippet)
 
@@ -35,7 +36,8 @@ for group in sorted(result):
     else:
         indent = ""
     for item in sorted(result[group]):
-        print("%s%s | bash='remmina %s' terminal=false iconName=remmina-%s-symbolic" %
+        print("%s%s | bash='remmina %s' terminal=false "
+              "iconName=remmina-%s-symbolic" %
               (indent, item, result[group][item]["path"],
                result[group][item]["protocol"]))
 
