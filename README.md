@@ -1,6 +1,7 @@
 # argos-remmina
 
-An Argos plugin that shows Remmina connections in a Gnome panel menu.
+An [Argos](https://github.com/p-e-w/argos) plugin that shows Remmina connections
+in a Gnome panel menu.
 
 ## Overview
 
@@ -17,7 +18,8 @@ but don't like Remmina's own panel applet for some reason? Then this is for you.
    [TopIcons Plus](https://extensions.gnome.org/extension/1031/topicons/) are keeping it
    on life support.
 3. I didn't like its bulky icon (included in the screenshot for comparison) in terms of style
-   and wasting pixels (my panel is always too short).
+   and wasting pixels (my panel is always too narrow for all the stuff I would like to cram
+   into it).
 
 ## Prerequisites
 
@@ -30,7 +32,7 @@ In theory this plugin should also work with [BitBar](https://github.com/matryer/
 but I have never heard of anybody using Remmina on MacOS, so this might be completely
 irrelevant.
 
-# Feedback
+## Feedback
 
 [Issues and Pull requests welcome.](https://github.com/rompe/argos-remmina)
 
