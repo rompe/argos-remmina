@@ -26,6 +26,11 @@ but don't like Remmina's own panel applet for some reason? Then this is for you.
 - [Remmina](https://remmina.org)
 - [Argos](https://github.com/p-e-w/argos)
 
+## Installation
+
+Just download `remmina.py`, place it in `~/.config/argos` and make it executable.
+Same procedure as for any other Argos plugin.
+
 ## BitBar compatibility
 
 In theory this plugin should also work with [BitBar](https://github.com/matryer/bitbar),
